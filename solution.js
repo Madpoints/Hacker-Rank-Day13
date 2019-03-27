@@ -13,8 +13,6 @@ function readLine() {
   return _input[_index++];
 }
 
-/**** Ignore above this line. ****/
-
 class Book {
   constructor(title, author) {
     if (this.constructor === Book) {
