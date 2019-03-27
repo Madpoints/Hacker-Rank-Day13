@@ -33,7 +33,13 @@ class Book {
 }
 /// ignore above this line ///
 
-class MyBook extends Book {}
+class MyBook extends Book {
+  constructor(title, author, price) {
+    super(title, author);
+
+    this.price = price;
+  }
+}
 // Declare your class here.
 /**
  *   Class Constructor
